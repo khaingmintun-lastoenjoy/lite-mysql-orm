@@ -1,0 +1,42 @@
+{
+  "name": "lite-mysql-orm",
+  "version": "1.0.0",
+  "description": "A lightweight MySQL ORM for Node.js with simple query builder",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "mysql",
+    "orm",
+    "database",
+    "query-builder",
+    "nodejs"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khaingmintun-lastoenjoy/lite-mysql-orm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khaingmintun-lastoenjoy/lite-mysql-orm/issues"
+  },
+  "homepage": "https://github.com/khaingmintun-lastoenjoy/lite-mysql-orm#readme",
+  "dependencies": {
+    "mysql2": "^3.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}

@@ -1,0 +1,14 @@
+node_modules/
+npm-debug.log
+.env
+test/
+coverage/
+.vscode/
+.idea/
+*.md
+!README.md
+!LICENSE
+.gitignore
+.eslintrc.js
+jest.config.js
+package-lock.json
